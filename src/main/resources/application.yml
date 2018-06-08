@@ -9,7 +9,16 @@ server:
 
 spring:
   datasource:
-    url : jdbc:mysql://localhost:3306/olive
-    username : root
-    password : Dx434125Asf
-    driverClassName : com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/olive
+    username: root
+    password: Dx434125Asf
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+logging:
+  level:
+    org:
+      springframework:
+        data: debug

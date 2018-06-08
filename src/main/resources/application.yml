@@ -1,0 +1,15 @@
+autoer: cwl
+age: 23
+sex: man
+server:
+  port: 8888
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/olive
+    username : root
+    password : Dx434125Asf
+    driverClassName : com.mysql.jdbc.Driver

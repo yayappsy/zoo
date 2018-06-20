@@ -12,9 +12,5 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @author: Dx
  * @create: 2018-06-08 17:12
  **/
-@RunWith(SpringRunner.class)
-@SpringBootTest
-@ComponentScan(basePackages = "com.longmin.zoo")
-@EntityScan(basePackages = "com.longmin.zoo")
 public class BaseTest {
 }
